@@ -1,0 +1,5 @@
+代码需要用python2.x内核执行，说明如下：
+1. 代码共包含三部分，feature_extraction.py,data_processing.py和model.py，需要将其拷贝至train文件夹下执行；
+2. 其中feature_extraction.py文件用于从trian文件夹下的六个表中提取数据，首先执行该文件后可得到data_feature.csv文件；
+3. data_processing.py文件用于数据预处理，主要是对data_feature.csv中缺失值进行填充，并且将类别数据和数值型数据分类，对类别数据进行onehot处理，对数值型数据做归一化，执行完毕以后得到data_final.csv文件；
+4. model.py文件为最终的建模文件，建模使用的数据为data_final.csv中文件，最后得到的为labels_pre.csv文件，其为二值型数据，其中1表示异常，0表示正常。
