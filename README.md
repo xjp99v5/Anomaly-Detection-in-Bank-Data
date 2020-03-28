@@ -8,8 +8,8 @@ Thank you!
 pandas, numpy, sklearn, matplotlib
 # Getting started
 ## Data processing
-run dataprocess.py
-## Training model
+run data_processing.py
+## Feature extraction
+run feature_extraction.py
+## Trainning model
 run model.py
-## Predicting
-run predict.py
