@@ -4,4 +4,4 @@ In this project, we could train our model to predict the potential overdue peopl
 The big files are not included in this repository. If anyone needs it, please feel free to contact me via xjpmailat126dotcom.
 Thank you!
 # Dependencies
-pandas, numpy, sklearn
+pandas, numpy, sklearn, matplotlib
